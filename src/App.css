@@ -1,0 +1,87 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: cursive;
+  margin: 150px;
+}
+
+h1 {
+  color: #333;
+  background: #ed7a69;
+  padding: 50px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Optional: Add a button for clearing completed todos */
+.clear-button {
+  margin-top: 10px;
+  background-color: #ed7a69;;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  background-color: #c0392b;
+}
+
+.add-todo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.add-todo input[type="text"] {
+  font-family: cursive;
+  flex: 1 1;
+  padding: 10px;
+  font-size: 16px;
+  border: solid 1px #ed7a69;
+  border-radius: 2px;
+}
+
+.add-todo button {
+  background-color: #ed7a69;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* ... (previous styles) */
+
+.todo-item button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.todo-item button.edit-button {
+  background-color: #3498db;
+}
